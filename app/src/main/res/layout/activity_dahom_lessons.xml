@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/font2"
+            android:text="پایه دهم"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/font3"
+            android:text="آماده تغییر باش!"
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/farsibtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="فارسی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="18 درس"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p11"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="18"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p12"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="18"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p13"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="18"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/arabibtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="عربی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="8 درس"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p21"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="8"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p22"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="8"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p23"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="8"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dinibtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="دین و زندگی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="12 درس"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p31"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="12"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p32"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="12"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p33"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="12"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/zabanbtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="زبان انگلیسی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="4 درس"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p41"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="4"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p42"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="4"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p43"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="4"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/riazibtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="ریاضی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="7 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p51"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="7"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p52"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="7"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p53"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="7"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hendesebtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="هندسه"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="4 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p61"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="4"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p62"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="4"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p63"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="4"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fizikbtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="فیزیک"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="5 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p71"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="5"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p72"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="5"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p73"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="5"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/shimibtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="شیمی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="3 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p81"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="3"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p82"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="3"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p83"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="3"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/zistbtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="زیست شناسی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="3 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p91"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="3"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p92"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="3"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p93"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="3"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fononbtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="علوم و فنون"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="17 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p101"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="17"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p102"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="17"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p103"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="17"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/riaziebtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="ریاضی انسانی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="5 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p111"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="5"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p112"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="5"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p113"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="5"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/taribtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="تاریخ"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="16 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p121"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="16"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p122"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="16"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p123"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="16"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/jamebtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="جامعه شناسی"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="14 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p131"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="14"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p132"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="14"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p133"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="14"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/joghbtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="جغرافیا"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="10 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p141"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="10"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p142"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="10"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p143"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="10"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eghbtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="اقتصاد"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="14 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p151"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="14"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p152"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="14"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p153"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="14"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mantbtn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/font2"
+                            android:text="منطق"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/font3"
+                            android:text="13 فصل"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="مطالعه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p161"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="13"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="خلاصه کردم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p162"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="13"
+                            app:rcProgress="40"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/font3"
+                            android:text="تست زدم"
+                            android:textColor="@android:color/black" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/p163"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="3"
+                            app:rcBackgroundColor="#DDDDDD"
+                            app:rcBackgroundPadding="4dp"
+                            app:rcMax="13"
+                            app:rcProgress="60"
+                            app:rcProgressColor="#2196F3"
+                            app:rcRadius="8dp"
+                            app:rcReverse="false"
+                            app:rcSecondaryProgress="0" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="#81000000" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

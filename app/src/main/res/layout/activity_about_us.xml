@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <ImageView
+        android:id="@+id/polygon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/polygon"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:translationY="-50dp"/>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/polygon"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="مهندس میرزایی"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/profile"
+        android:fontFamily="@font/font1"
+        android:layout_marginTop="15dp"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/describtion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مشاور تحصیلی کنکوری و پایه. فارغ التحصیل رشته برق دانشگاه شهید بهشتی. مجری و برنامه ریز سری نرم افزار های 2080"
+        android:textAlignment="center"
+        android:fontFamily="@font/font3"
+        android:layout_below="@id/name"
+        android:textSize="15dp"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/describtion"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/call" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="09127305627"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font1"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/call"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="www.appnita.ir , www.group2080.ir"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font1"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/insta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/insta" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="group.2080"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font1"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مشاهده محتوای مشاوره ای اینستاگرام"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:src="@drawable/back"
+        android:layout_margin="10dp"/>
+
+
+</RelativeLayout>

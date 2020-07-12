@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Privacy">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="خوش آمدید"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ll2"
+        android:layout_below="@id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_margin="24dp"
+        android:text="شرایط استفاده و سیاست حفظ حریم خصوصی"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <ScrollView
+        android:id="@+id/ll3"
+        android:layout_below="@id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_above="@id/ll4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="با سلام و احترام، با تشکر بابت نصب نرم افزار 2080                    هدف از طراحی این نرم افزار تنها برای استفاده شخصی دانش آموزان پایه دهم ، یازدهم و دوازدهم می باشد. به منظور ارائه بهتر خدمات مشاوره ای، شماره تماس شما در اختیار تیم ما خواهد بود. در نسخه های بعدی نرم افزار از شماره ی شما جهت آنلاین سازی مشاهده روند مطالعاتی شما استفاده خواهد شد. لذا دسترسی به این شماره لازم می باشد. امیدوارم از نصب نرم افزار نهایت استفاده را ببرید. شاد و پیروز باشید. آرش میرزایی"
+            android:fontFamily="@font/font3"
+            android:textSize="21dp"
+            android:padding="18dp"
+            android:justificationMode="inter_word"
+            android:textColor="@android:color/black"/>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="شرایط را قبول دارم"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_margin="20dp"
+            android:layoutDirection="rtl"/>
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:text="مرحله بعد"
+            android:background="@android:color/holo_green_dark"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
